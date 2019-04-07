@@ -39,8 +39,8 @@ command depends on your present working directory), then please note that contex
    
 ## Exercise Steps
 
-1. While looking in the `src` directory, you likely saw a file called `ttt_util.jar`. This file
-   contains a Tic-Tac-Toe utility class with some helpful methods.
+1. While looking in the `src` directory, you likely saw a file called `TTTUtility.java`. 
+   This file contains a Tic-Tac-Toe utility class with some helpful methods.
    Take a few minutes to read the documentation for these methods here: 
    [TTT Utility}(http://cobweb.cs.uga.edu/~barnes/cs1302-ttt/)
 
