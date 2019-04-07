@@ -19,7 +19,7 @@ public class TTTSolver {
         while(board.length() != 9 || !TTTUtility.validGame(board)) {
             System.out.println("Invalid board. Try again.");
             board = input.nextLine();
-        }
+        } // while
 
         //Figure out which character should go first given
         //the current configuration
@@ -35,8 +35,8 @@ public class TTTSolver {
      *
      * @param board the game board
      */
-    public static void printAllBoards(String board){
+    public static void printAllBoards(String board) {
         System.out.println(board);
-    }
+    } // printAllBoards
 
 } // TTTSolver

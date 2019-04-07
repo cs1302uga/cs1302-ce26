@@ -42,7 +42,7 @@ public class TTTUtility {
      * Returns if the board is in a valid state. A valid
      * state is one where 'X' has either the same number of
      * moves as 'O' or one higher. Otherwise, players moved
-     * out of turn.
+     * out of turn. Assumes 'X' always goes first.
      *
      * @param board the game board.
      * @return {@code true} if the board is in a valid state
@@ -51,8 +51,10 @@ public class TTTUtility {
     public static boolean validGame(String board) {
         int xCount = count(board, 'X');
         int oCount = count(board, 'O');
+        int blankCount = count(board, '-');
 
-        return xCount == oCount || xCount - 1 == oCount;
+        boolean full = xCount + oCount + blankCount == 9;
+        return full && (xCount == oCount || xCount - 1 == oCount);
     }
 
     /**
