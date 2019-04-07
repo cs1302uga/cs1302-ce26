@@ -16,7 +16,7 @@ public class TTTSolver {
         Scanner input = new Scanner(System.in);
         System.out.println("Please enter an initial board state:");
         String board = input.nextLine();
-        while(board.length() != 9 || !TTTUtility.validGame(board)) {
+        while(!TTTUtility.validGame(board)) {
             System.out.println("Invalid board. Try again.");
             board = input.nextLine();
         } // while

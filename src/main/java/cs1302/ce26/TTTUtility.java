@@ -39,8 +39,9 @@ public class TTTUtility {
     } // TTTUtility
     
     /**
-     * Returns if the board is in a valid state. A valid
-     * state is one where 'X' has either the same number of
+     * Returns {@code true} if the board is in a valid state. 
+     * A valid state is one where the board contains 9 
+     * characters and 'X' has either the same number of
      * moves as 'O' or one higher. Otherwise, players moved
      * out of turn. Assumes 'X' always goes first.
      *
