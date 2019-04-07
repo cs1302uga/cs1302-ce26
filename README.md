@@ -64,13 +64,16 @@ command depends on your present working directory), then please note that contex
    * Once you get the code to compile and run, please write down the commands you used
      in your notes.
    
-1. **Current Pair Programming Driver (person typing)**: Open the `TTTUtility.java` file
-   and implement the `isCat` method. The method takes a `String` reference to the current
-   game board. Note: a game is a cat game (or tie) if all spaces are full and neither `'X'`
-   nor `'O'` has won the game. To simplify your implementation, use the methods already 
-   present in `TTTUtility`.
-   **Current Pair Programming Rider**: Stay actively engaged with your group member while
-   they are working. Offer suggestions and point out typos or logical errors as they work. 
+1. Pair Program:
+
+   * **Current Pair Programming Driver (person typing)**: Open the `TTTUtility.java` file
+     and implement the `isCat` method. The method takes a `String` reference to the current
+     game board. Note: a game is a _cat game_ (or tie) if all spaces are full and neither `'X'`
+     nor `'O'` has won the game. To simplify your implementation, use the methods already 
+     present in `TTTUtility`.
+   
+   * **Current Pair Programming Rider**: Stay actively engaged with your group member while
+     they are working. Offer suggestions and point out typos or logical errors as they work. 
 
 1. Add a line to the `printAllBoards` method in `TTTSolver.java` to print `true` if the
    specified game board is a tie and `false` otherwise.
