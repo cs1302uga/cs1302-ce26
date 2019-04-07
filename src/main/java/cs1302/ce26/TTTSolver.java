@@ -14,7 +14,10 @@ public class TTTSolver {
      */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.println("Please enter an initial board state:");
+        System.out.println("Please enter an initial board state " +
+                           "using 9 consecutive characters. Valid "  +
+                           "characters are X, O, and -");
+        
         String board = input.nextLine();
         while(!TTTUtility.validGame(board)) {
             System.out.println("Invalid board. Try again.");
