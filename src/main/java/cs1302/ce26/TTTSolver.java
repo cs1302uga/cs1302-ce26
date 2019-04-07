@@ -25,7 +25,7 @@ public class TTTSolver {
      * @param input an input scanner
      * @return the board configuration
      */
-    public static void promptBoard(Scanner input) {
+    public static String promptBoard(Scanner input) {
         String board = input.nextLine();
         while(!TTTUtility.validGame(board)) {
             System.out.println("Invalid board. Try again.");
