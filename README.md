@@ -76,12 +76,13 @@ command depends on your present working directory), then please note that contex
      they are working. Offer suggestions and point out typos or logical errors as they work. 
 
 1. Add a line to the `printAllBoards` method in `TTTSolver.java` to print `true` if the
-   specified game board is a tie and `false` otherwise.
+   specified game board is a tie and `false` otherwise. You should use the `isCat` method
+   that you wrote in the previous step.
    
 1. After you've confirmed that the code compiles and runs, please add and commit
    your changes to the repository.
 
-1. **Swap drivers**
+1. **Swap drivers.**
 
 **CHECKPOINT**
 
@@ -97,7 +98,7 @@ command depends on your present working directory), then please note that contex
    implement the `printAllBoards` method in `TTTSolver`. The rider should be actively engaged
    in the process as well.
 
-1. Use maven to compile and run the code. After you've confirmed that it compiles and runs, 
+1. Use Maven to compile and run the code. After you've confirmed that it compiles and runs, 
    please add and commit your changes to the repository.
 
 **CHECKPOINT**
