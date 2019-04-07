@@ -123,6 +123,16 @@ public class TTTUtility {
     }
 
     /**
+     * Returns {@code True} if the specified board represents a 
+     * tie game. A game is a tie when the board is full and neither
+     * 'X' or 'O' has three in a row.
+     */
+    public static boolean isCat(String board) {
+        //TODO: Implement me properly
+        return false;
+    } // isCat
+    
+    /**
      * Returns {@code true} if the provided character value is found
      * in three consecutive spaces (including diagonals) in the provided 
      * game board.
