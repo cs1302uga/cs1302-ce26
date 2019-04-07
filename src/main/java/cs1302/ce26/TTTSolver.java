@@ -1,7 +1,6 @@
 package cs1302.ce26;
 
 import java.util.Scanner;
-import cs1302.ttt.TTTUtility;
 
 /**
  * Tic Tac Toe Solver class
@@ -36,7 +35,7 @@ public class TTTSolver {
      * @param board the game board
      */
     private static void printAllBoards(String board){
-
+        System.out.println(board);
     }
 
 } // TTTSolver
