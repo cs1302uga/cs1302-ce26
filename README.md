@@ -82,11 +82,9 @@ command depends on your present working directory), then please note that contex
 1. After you've confirmed that the code compiles and runs, please add and commit
    your changes to the repository.
 
-1. **Swap drivers.**
-
 **CHECKPOINT**
 
-1. Consider a recursive implementation for the `printAllBoards` method in `TTTSolver`.
+1. **Swap drivers.** Consider a recursive implementation for the `printAllBoards` method in `TTTSolver`.
 
    * Identify the base case(s). Give an example.
    
@@ -98,6 +96,22 @@ command depends on your present working directory), then please note that contex
    implement the `printAllBoards` method in `TTTSolver`. The rider should be actively engaged
    in the process as well.
 
+1. Use Maven to compile and run the code. After you've confirmed that it compiles and runs, 
+   please add and commit your changes to the repository.
+
+**CHECKPOINT**
+
+1. **Swap drivers.** Implement a new method in `TTTSolver` called `countAllWinningBoards`
+   that, given an initial board state and a player, returns a count of all winning board states
+   for that player that can be reached via a valid sequence of moves by each player. Here is
+   the signature for the method to help you get started:
+   
+   ```java
+   int countAllWinningBoards(String board, char player)
+   ```
+
+   Remember, the rider should be actively engaged in the process as well.
+   
 1. Use Maven to compile and run the code. After you've confirmed that it compiles and runs, 
    please add and commit your changes to the repository.
 
