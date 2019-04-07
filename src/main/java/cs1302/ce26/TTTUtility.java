@@ -126,6 +126,9 @@ public class TTTUtility {
      * Returns {@code True} if the specified board represents a 
      * tie game. A game is a tie when the board is full and neither
      * 'X' or 'O' has three in a row.
+     * 
+     * @param board the game board
+     * @return {@code True} if this game is a tie. False, otherwise.
      */
     public static boolean isCat(String board) {
         //TODO: Implement me properly
