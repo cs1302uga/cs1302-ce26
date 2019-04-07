@@ -10,6 +10,7 @@ public class TTTSolver {
 
     /**
      * The entry point for the program.
+     * @param args command-line arguments
      */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
@@ -34,7 +35,7 @@ public class TTTSolver {
      *
      * @param board the game board
      */
-    private static void printAllBoards(String board){
+    public static void printAllBoards(String board){
         System.out.println(board);
     }
 
