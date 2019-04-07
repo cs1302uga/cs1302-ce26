@@ -27,7 +27,7 @@ command depends on your present working directory), then please note that contex
    > Comte de Rochambeau was a French nobleman who fought against the British during the Revolutionary War.
    > His name served as a codeword at the battle of Yorktown, where he commanded the French troops.
    > Legend has it that Comte de Rochambeau made decisions using a technique known as _roshambo_
-   > or _rock, paper, scissors_.
+   > or _rock, paper, scissors_. **-- A Legend**
 
 1. Use Git to clone the repository for this exercise onto Nike into a subdirectory called `cs1302-ce26`:
 
