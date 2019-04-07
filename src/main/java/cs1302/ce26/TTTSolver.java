@@ -20,16 +20,10 @@ public class TTTSolver {
             System.out.println("Invalid board. Try again.");
             board = input.nextLine();
         }
-        System.out.println("Enter the position (0-8) for your move:");
-        int move = input.nextInt();
-        while(board.charAt(move) != '-') {
-            System.out.println("That spot is already taken. Try again:");
-            move = input.nextInt();
-        }
-        //Add player's move using the appropriate character:
+
+        //Figure out which character should go first given
+        //the current configuration
         char ch = TTTUtility.whoseTurn(board);
-        System.out.println(ch + " turn");
-        board = board.substring(0, move) + ch + board.substring(move + 1);
         printAllBoards(board);
     } // main
 
