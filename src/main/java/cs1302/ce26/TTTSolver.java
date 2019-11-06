@@ -6,7 +6,7 @@ import java.util.Scanner;
  * A Tic-Tac-Toe Solver class.
  */
 public class TTTSolver {
-  
+
     /**
      * The entry point for the program.
      * @param args command-line arguments
@@ -27,18 +27,18 @@ public class TTTSolver {
      */
     public static String promptBoard(Scanner input) {
         String board = input.nextLine();
-        while(!TTTUtility.validGame(board)) {
+        while (!TTTUtility.validGame(board)) {
             System.out.println("Invalid board. Try again.");
             board = input.nextLine();
-        } // while        
+        } // while
         return board;
     } // promptBoard
-    
+
     /**
      * Given an initial board state, this method prints
      * all board states that can be reached via valid
      * sequence of moves by each player. Therefore, the
-     * printout includes both intermediate board states 
+     * printout includes both intermediate board states
      * as well as completed board states.
      *
      * @param board the game board
