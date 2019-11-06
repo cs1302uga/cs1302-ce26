@@ -5,6 +5,10 @@ This class exercise futher explores the concept of [recursion](https://github.co
 You will write a method to print all possible Tic-Tac-Toe boards from a given starting point. Some helpful
 utility methods are provided for you in the starter code contained in the provided Maven project.
 
+## Course-Specific Learning Outcomes
+* **LO2.c:** Use recursion to solve a non-trivial problem in a software solution.
+* **LO3.d:** Apply pair-programming principles in a software-based project.
+
 ## References and Prerequisites
 
 * [`CSCI 1302 Recursion Tutorial`](https://github.com/cs1302uga/cs1302-tutorials/blob/master/recursion.md)
