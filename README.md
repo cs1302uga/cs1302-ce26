@@ -1,5 +1,7 @@
 # cs1302-ce26 Tic-Tac-Toe Solver
 
+![Approved for: Fall 2019](https://img.shields.io/badge/Approved%20for-Fall%202019-brightgreen)
+
 This class exercise futher explores the concept of [recursion](https://github.com/cs1302uga/cs1302-ce26).
 
 You will write a method to print all possible Tic-Tac-Toe boards from a given starting point. Some helpful
