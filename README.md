@@ -65,8 +65,8 @@ command depends on your present working directory), then please note that contex
    Enter a valid game board and make sure the board is printed to the screen before moving 
    on.
    
-   * Once you get the code to compile and run, please write down the commands you used
-     in your notes.
+   * Once you get the code to compile and run, please write down the command you used
+     in your notes along with your chosen board configuration.
    
 1. Pair Program:
 
@@ -116,8 +116,10 @@ command depends on your present working directory), then please note that contex
 
    Remember, the rider should be actively engaged in the process as well.
    
-1. Use Maven to compile and run the code. After you've confirmed that it compiles and runs, 
-   please add and commit your changes to the repository.
+1. Use Maven to compile and run the code. Then, add some print statements to convince your instructor
+   or TA that your code is working. Use initial board configurations that you can compute manually at first.
+   
+1. Add and commit your changes to the repository.
 
 **CHECKPOINT**
 
