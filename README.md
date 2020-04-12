@@ -87,7 +87,7 @@ command depends on your present working directory), then please note that contex
    specified game board is a tie and `false` otherwise. You should use the `isCat` method
    that you wrote in the previous step.
    
-1. Please ensure you pass `checkstyle`, recommit if needed, **and tag as `checkpoint-1`**.
+1. Ensure you pass `checkstyle`, recommit if needed, **and tag as `checkpoint-1`**.
 
 ![CP](https://img.shields.io/badge/Checkpoint-1-success?style=for-the-badge)
 
@@ -104,7 +104,7 @@ command depends on your present working directory), then please note that contex
    in the process as well.
 
 1. Use Maven to compile and run the code. After you've confirmed that it compiles and runs, 
-   please add and commit your changes to the repository.
+   ensure you pass `checkstyle`, recommit if needed, **and tag as `checkpoint-2`**.
 
 ![CP](https://img.shields.io/badge/Checkpoint-2-success?style=for-the-badge)
 
@@ -122,7 +122,7 @@ command depends on your present working directory), then please note that contex
 1. Use Maven to compile and run the code. Then, add some print statements to convince your instructor
    or TA that your code is working. Use initial board configurations that you can compute manually at first.
    
-1. Please ensure you pass `checkstyle`, recommit if needed, **and tag as `checkpoint-2`**.
+1. Ensure you pass `checkstyle`, recommit if needed, **and tag as `checkpoint-3`**.
 
 ![CP](https://img.shields.io/badge/Checkpoint-3-success?style=for-the-badge)
 
