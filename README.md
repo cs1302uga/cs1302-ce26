@@ -120,6 +120,11 @@ command depends on your present working directory), then please note that contex
 
    Remember, the rider should be actively engaged in the process as well.
    
+1. In the `main` method of `TTTSolver`, add code to test your `countAllWinningBoards` method by reading
+   input from the user. Since we already have the user entering a board, you will just need to add a 
+   prompt for the user to type which player to evaluate (`X` or `O`). Then, output the result of calling
+   `countAllWinningBoards(board, player)` to the console.
+   
 1. Use Maven to compile and run the code. Then, add some print statements to convince your instructor
    or TA that your code is working. Use initial board configurations that you can compute manually at first.
    
