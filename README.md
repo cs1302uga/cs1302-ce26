@@ -93,7 +93,8 @@ command depends on your present working directory), then please note that contex
 
 1. **Swap drivers.** Consider a recursive implementation for the `printAllBoards` method in `TTTSolver`.
 
-   * Identify the base case(s). Give an example.
+   * Identify the base case(s). Give an example. Note: A base case for tic-tac-toe would be any
+     configuration resulting in the game being over.
    
    * Identify the recursive case(s).
    
