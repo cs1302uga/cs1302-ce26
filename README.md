@@ -35,6 +35,8 @@ We will **double the points** that you earn for this exercise if you meet the fo
    
 1. Completed all checkpoints.
 
+The Git log in your submitted exercise will help us determine if you met these criteria.
+
 ### Getting Started
 
 1. **Let's do some pair programming!** Team up with one other person and make sure you only have one 
