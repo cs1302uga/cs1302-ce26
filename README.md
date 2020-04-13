@@ -28,16 +28,6 @@ command depends on your present working directory), then please note that contex
 
 ### Getting Started
 
-1. **Let's do some pair programming!** Team up with one other person and make sure you only have one 
-   laptop out. We recommend that use Comte de Rochambeau's technique to determine who gets to
-   be the driver.
-   
-   > Comte de Rochambeau was a French nobleman who fought against the British during the Revolutionary War.
-   > His name served as a codeword at the battle of Yorktown, where he commanded the French troops.
-   > Legend has it that Comte de Rochambeau made decisions using a technique known as _roshambo_
-   > or _rock, paper, scissors_. 
-   > **-- A Legend told by Some Old, Wise Person**
-
 1. Use Git to clone the repository for this exercise onto Nike into a subdirectory called `cs1302-ce26`:
 
    ```
@@ -72,16 +62,11 @@ command depends on your present working directory), then please note that contex
    * Once you get the code to compile and run, please write down the command you used
      in your notes along with your chosen board configuration.
    
-1. Pair Program:
-
-   * **Current Pair Programming Driver (person typing)**: Open the `TTTUtility.java` file
-     and implement the `isCat` method. The method takes a `String` reference to the current
-     game board. Note: a game is a _cat game_ (or tie) if all spaces are full and neither `'X'`
-     nor `'O'` has won the game. To simplify your implementation, use the methods already 
-     present in `TTTUtility`.
-   
-   * **Current Pair Programming Rider**: Stay actively engaged with your group member while
-     they are working. Offer suggestions and point out typos or logical errors as they work. 
+1. Open the `TTTUtility.java` file
+   and implement the `isCat` method. The method takes a `String` reference to the current
+   game board. Note: a game is a _cat game_ (or tie) if all spaces are full and neither `'X'`
+   nor `'O'` has won the game. To simplify your implementation, use the methods already 
+   present in `TTTUtility`.
 
 1. Add a line to the `printAllBoards` method in `TTTSolver.java` to print `true` if the
    specified game board is a tie and `false` otherwise. You should use the `isCat` method
@@ -91,7 +76,7 @@ command depends on your present working directory), then please note that contex
 
 ![CP](https://img.shields.io/badge/Checkpoint-1-success?style=for-the-badge)
 
-1. **Swap drivers.** Consider a recursive implementation for the `printAllBoards` method in `TTTSolver`.
+1. Consider a recursive implementation for the `printAllBoards` method in `TTTSolver`.
 
    * Identify the base case(s). Give an example. Hint: A base case for tic-tac-toe would be any
      configuration resulting in the game being over.
@@ -100,16 +85,14 @@ command depends on your present working directory), then please note that contex
    
    * Draw the recursion tree for `printAllBoards("XOXOXO---")`.
 
-1. The group member who is currently driving (not the same person who implemented `isCat`): 
-   implement the `printAllBoards` method in `TTTSolver`. The rider should be actively engaged
-   in the process as well.
+1. Implement the `printAllBoards` method in `TTTSolver`.
 
 1. Use Maven to compile and run the code. After you've confirmed that it compiles and runs, 
    ensure you pass `checkstyle`, recommit if needed, **and tag as `checkpoint-2`**.
 
 ![CP](https://img.shields.io/badge/Checkpoint-2-success?style=for-the-badge)
 
-1. **Swap drivers.** Implement a new method in `TTTSolver` called `countAllWinningBoards`
+1. Implement a new method in `TTTSolver` called `countAllWinningBoards`
    that, given an initial board state and a player, returns a count of all winning board states
    for that player that can be reached via a valid sequence of moves by each player. Here is
    the signature for the method to help you get started:
@@ -117,8 +100,6 @@ command depends on your present working directory), then please note that contex
    ```java
    int countAllWinningBoards(String board, char player)
    ```
-
-   Remember, the rider should be actively engaged in the process as well.
    
 1. In the `main` method of `TTTSolver`, add code to test your `countAllWinningBoards` method by reading
    input from the user. Since we already have the user entering a board, you will just need to add a 
