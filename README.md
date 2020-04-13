@@ -26,6 +26,8 @@ logged into the Nike server.
 command that you typed to make the related action happen. If context is necessary (e.g., the 
 command depends on your present working directory), then please note that context as well.
 
+![Extra Credit](ecop.png)
+
 ### Getting Started
 
 1. **Let's do some pair programming!** Team up with one other person and make sure you only have one 
