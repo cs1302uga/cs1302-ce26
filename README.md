@@ -28,8 +28,6 @@ command depends on your present working directory), then please note that contex
 
 ![Extra Credit](ecop.png)
 
-### Extra Credit Opportunity
-
 We will **double the points** that you earn for this exercise if you meet the following criteria:
 
 1. Met with another student in the Spring 2020 CSCI 1302 online (e.g., via Zoom) to complete
