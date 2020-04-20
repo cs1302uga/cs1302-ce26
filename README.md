@@ -10,7 +10,6 @@ utility methods are provided for you in the starter code contained in the provid
 
 ## Course-Specific Learning Outcomes
 * **LO2.c:** Use recursion to solve a non-trivial problem in a software solution.
-* **LO3.d:** Apply pair-programming principles in a software-based project.
 
 ## References and Prerequisites
 
