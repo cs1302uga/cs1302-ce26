@@ -46,7 +46,7 @@ command depends on your present working directory), then please note that contex
    This file contains a Tic-Tac-Toe utility class with some helpful methods.
    Take a few minutes to familiarize yourselves with the documentation for these methods 
    using the documentation found here: 
-   [TTT Utility](http://cobweb.cs.uga.edu/~barnes/cs1302-ttt/)
+   [TTT Utility](http://csweb.cs.uga.edu/~barnes/cs1302-ttt/)
 
 1. Take a few more minutes to read through `TTTSolver.java`. This file contains a `main` method
    which takes in an encoding for a game board. It then passes this game board to `printAllBoards`. 
