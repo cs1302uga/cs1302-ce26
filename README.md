@@ -66,7 +66,7 @@ command depends on your present working directory), then please note that contex
    nor `'O'` has won the game. To simplify your implementation, use the methods already 
    present in `TTTUtility`.
 
-1. Add a line to the `printAllBoards` method in `TTTSolver.java` to print `true` if the
+1. Add a line to the `main` method in `TTTSolver.java` to print `true` if the
    specified game board is a tie and `false` otherwise. You should use the `isCat` method
    that you wrote in the previous step.
    
