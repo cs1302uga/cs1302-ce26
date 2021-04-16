@@ -95,6 +95,7 @@ command depends on your present working directory), then please note that contex
 1. Use Maven to compile and run the code. After you've confirmed that it compiles and runs, 
    ensure you pass `checkstyle`, recommit if needed, **and tag as `checkpoint-2`**.
 
+1. **Check your recursion tree against the solution here _____ before moving on___**
 <hr/>
 
 ![CP](https://img.shields.io/badge/Just%20Finished%20Checkpoint-2-success?style=for-the-badge)
